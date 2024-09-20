@@ -1,0 +1,6 @@
+WeChat: cstutorcs
+QQ: 749389476
+Email: tutorcs@163.com
+sudo iptables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
+sudo iptables -A INPUT -p tcp --dport 22 -j ACCEPT
+sudo iptables -A INPUT -j DROP
